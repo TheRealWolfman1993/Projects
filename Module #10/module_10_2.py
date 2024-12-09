@@ -21,7 +21,6 @@ class Knight(Thread):
         # Вывод строки об окончании сражения
         print(f'{self.name} одержал победу спустя {day} дней(дня)!')
 
-
 first_knight = Knight('Sir Lancelot', 10)
 second_knight = Knight("Sir Galahad", 20)
 
